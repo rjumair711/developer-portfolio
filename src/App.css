@@ -1,0 +1,52 @@
+.gradient-background {
+  background: linear-gradient(135deg, #cfffd6, #e7faff, #ebffd0);
+  min-height: 100vh;
+}
+
+:root {
+  --bg-color: #000000;      /* Black background for light mode */
+  --text-color: #ffffff;    /* White text for light mode */
+
+  --card-bg-black: #121212; /* Card background dark */
+  --card-text-white: #eee;  /* Card text light */
+
+  --blue-200: #bfdbfe;      /* Tailwind blue-200 */
+  --text-black: #111111;    /* Dark text */
+  --card-bg-lime: #d9f99d; /* Tailwind lime-200 */
+  --card-text-black: #111;  /* Dark text */ 
+  --gray-400: #9ca3af;
+  --gray-700: #374151;
+  --text-white: #ffffff;
+}
+
+/* Dark mode overrides */
+.dark {
+  --bg-color: #ffffff;      /* White background for dark mode */
+  --text-color: #000000;    /* Black text for dark mode */
+
+  --card-bg-black: #f9fafb; /* Light card background */
+  --card-text-white: #111;  /* Dark text */
+
+  --blue-200: #bfdbfe;
+  --text-black: #111111;
+  --card-bg-lime: #d9f99d;
+  --card-text-black: #111;
+  --gray-400: #6b7280;
+  --gray-700: #374151;
+  --text-white: #000000;
+}
+
+
+:root {
+  /* ...existing variables... */
+  --action-btn-bg: transparent;      /* assuming */
+  --action-btn-text: #000000;        /* black text in light mode */
+  --action-btn-border: #ffffff;      /* white border in light mode */
+}
+
+.dark {
+  /* ...existing variables... */
+  --action-btn-bg: transparent;      
+  --action-btn-text: #ffffff;        /* white text in dark mode */
+  --action-btn-border: #000000;      /* black border in dark mode */
+}
