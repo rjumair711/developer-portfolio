@@ -7,7 +7,9 @@ import Experience from './components/Experience';
 import WorkProcess from './components/WorkProcess';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import img1 from '../src/assets/wave-bg.png';
+import img2 from '../src/assets/Vector.png';
+import img3 from '../src/assets/Vector_1.png'
 const App = () => {
   return (
     <div
@@ -23,7 +25,7 @@ const App = () => {
       <div
         className="min-h-screen bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url('/src/assets/wave-bg.png')`,
+          backgroundImage: `url(${img1})`,
           color: 'var(--text-color)',
           transition: 'color 0.3s',
         }}
@@ -37,7 +39,7 @@ const App = () => {
       <div
         className="min-h-screen bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url('/src/assets/Vector.png')`,
+          backgroundImage: `url(${img2})`,
           color: 'var(--text-color)',
           transition: 'color 0.3s',
         }}
@@ -50,7 +52,7 @@ const App = () => {
       <div
         className="min-h-screen bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url('/src/assets/Vector_1.png')`,
+          backgroundImage: `url(${img3})`,
           backgroundPosition: 'center top -170px',
           color: 'var(--text-color)',
           transition: 'color 0.3s',
